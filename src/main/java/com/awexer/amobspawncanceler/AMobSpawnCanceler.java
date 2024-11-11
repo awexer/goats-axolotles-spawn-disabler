@@ -15,7 +15,7 @@ public final class AMobSpawnCanceler extends JavaPlugin implements Listener {
     }
 
     @EventHandler
-    public void onEntitySpawn(EntitySpawnEvent event) {
+    public void onEntitySpawn(EntitySpawnEvent event) { // event
         EntityType eType = event.getEntityType();
         if (eType.equals(EntityType.AXOLOTL) || eType.equals(EntityType.GOAT)) {
             event.setCancelled(true);
