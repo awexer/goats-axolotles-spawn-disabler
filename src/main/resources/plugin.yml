@@ -1,0 +1,4 @@
+name: AMobSpawnCanceler
+version: '${project.version}'
+main: com.awexer.amobspawncanceler.AMobSpawnCanceler
+api-version: '1.17'
